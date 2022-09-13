@@ -16,7 +16,7 @@ cache:
 
 before_script:
   - terraform --version
-  - terraform init -backend-config="backend.tf"
+  - terraform init -backend-config="state.config"
 
 stages:
   - validate
