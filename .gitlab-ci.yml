@@ -45,9 +45,3 @@ apply:
   dependencies:
     - plan
   when: manual
-
-Destroy:
-  stage: deploy 
-  script: 
-    - terraform init
-    - terraform destroy -auto-approve
