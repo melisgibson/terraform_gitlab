@@ -1,0 +1,2 @@
+variable "gitlab_token" {
+}
