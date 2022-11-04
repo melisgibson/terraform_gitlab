@@ -4,7 +4,7 @@ data "aws_availability_zones" "available" {}
 
 resource "random_integer" "random" {
   min = 1
-  max = 10
+  max = 9
 }
 
 resource "random_shuffle" "public_az" {
